@@ -16,7 +16,7 @@ class AppWidget extends StatelessWidget {
         theme: UiConfig.theme,
         title: UiConfig.title,
         debugShowCheckedModeBanner: false,
-        initialRoute: RouteConstants.AUTH_ROUTE, //parei em 04:16 da aula splash
+        initialRoute: RouteConstants.AUTH_ROUTE,
         builder: asuka.builder,
         navigatorObservers: [
           asuka.asukaHeroController
