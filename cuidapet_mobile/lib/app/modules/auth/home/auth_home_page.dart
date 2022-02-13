@@ -22,7 +22,7 @@ class _AuthHomePageState extends State<AuthHomePage> {
   void initState() {
     super.initState();
     reaction<UserModel?>((_) => widget._authStore.userModel, (userModel) {
-      if (userModel != null && userModel.email.isEmpty) {
+      if (userModel != null && userModel.email.isNotEmpty){
         Modular.to.navigate(RouteConstants.HOME_ROUTE);
       } else {
         Modular.to.navigate(RouteConstants.AUTH_ROUTE_LOGIN);
