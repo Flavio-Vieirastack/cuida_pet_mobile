@@ -1,4 +1,3 @@
-import 'dart:ui';
 
 import 'package:cuida_pet_mobile/app/core/constants/assets_constants.dart';
 import 'package:cuida_pet_mobile/app/core/ui/extensions/size_screen_extension.dart';
